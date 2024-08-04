@@ -209,8 +209,8 @@
         }
         .user-info img {
             border-radius: 50%;
-            width: 50px;
-            height: 50px;
+            width: 30px; /* Adjusted size */
+            height: 30px; /* Adjusted size */
             margin-right: 15px;
         }
         .user-info p {
@@ -247,7 +247,7 @@
             <img id="user-icon" src="" alt="User Icon">
             <p id="user-name">Username</p>
         </div>
-        <img src="https://i.ibb.co/G2dH87P/Clipped-image-20240718-232638.png" alt="Medal Image" class="medallion">
+        <img src="https://i.ibb.co/G2dH87P/Clipped-image-20240718-232638.png" alt="Medal Image">
         <h2 id="video-heading">The Process platform</h2>
         <button class="menu-button" onclick="document.getElementById('video-menu').classList.toggle('hidden')">Select Video</button>
         <div id="video-menu" class="menu-content hidden">

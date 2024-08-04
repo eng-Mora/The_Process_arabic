@@ -22,7 +22,7 @@
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             text-align: center;
             width: 100%;
-            max-width: 1000px;
+            max-width: 500px;
             transition: background-color 0.5s, color 0.5s;
             overflow-y: auto;
             height: 100vh;
@@ -225,6 +225,7 @@
         <img src="https://i.ibb.co/G2dH87P/Clipped-image-20240718-232638.png" alt="Medal Image">
         <h2>The Process platform</h2>
         <input type="text" id="username" placeholder="Enter Username" onkeydown="handleEnterKey(event)">
+        <input type="password" id="password" placeholder="Enter Password" onkeydown="handleEnterKey(event)">
         <button onclick="login()">Login</button>
         <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
@@ -321,18 +322,19 @@
     <script>
         let activeUsers = {};
 
-      function login() {
+        function login() {
             const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value.trim();
             const videoHeading = document.getElementById('video-heading');
             const userIcon = document.getElementById('user-icon');
             const userName = document.getElementById('user-name');
 
-            if (username === '') {
-                alert('Please enter a username.');
+            if (username === '' || password === '') {
+                alert('Please enter both username and password.');
                 return;
             }
 
-            if (username === '45455' || username === '45454') {
+            if ((username === '45454' && password === '45454') || (username === '45455' && password === '45455')) {
                 if (Object.keys(activeUsers).length > 0) {
                     alert('Another user is already logged in. Please log out first.');
                     return;
@@ -352,7 +354,7 @@
                     userName.textContent = 'Eng: Mora';
                 }
             } else {
-                alert('Invalid username');
+                alert('Invalid username or password');
             }
         }
 

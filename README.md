@@ -17,36 +17,37 @@
         }
         .container {
             background-color: white;
-            padding: 50px; /* Increased padding */
+            padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 0 20px rgba(0,0,0,0.3); /* Increased shadow for better visibility */
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
             text-align: center;
             width: 100%;
-            max-width: 700px; /* Increased max-width */
+            max-width: 500px;
             transition: background-color 0.5s, color 0.5s;
             overflow-y: auto;
+            height: 100vh;
         }
         .container img {
-            width: 200px; /* Increased width */
+            width: 160px;
             height: auto;
-            margin-bottom: 20px; /* Increased margin */
+            margin-bottom: 10px;
             background-color: #fff;
             padding: 10px;
             border-radius: 8px;
         }
         .container h2, .container h1 {
-            margin-bottom: 30px; /* Increased margin */
+            margin-bottom: 20px;
         }
         .container input {
-            width: calc(100% - 24px); /* Adjusted width to fit increased padding */
-            padding: 16px; /* Increased padding */
-            margin: 16px 0; /* Increased margin */
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
         .container button {
-            width: calc(100% - 24px); /* Adjusted width to fit increased padding */
-            padding: 16px; /* Increased padding */
+            width: 100%;
+            padding: 12px;
             background-color: #9f54d9;
             color: white;
             border: none;
@@ -60,31 +61,31 @@
             display: none;
         }
         .icon {
-            width: 60px; /* Increased width */
-            height: 60px; /* Increased height */
+            width: 50px;
+            height: 50px;
             cursor: pointer;
-            margin-top: 30px; /* Increased margin */
+            margin-top: 20px;
         }
         .footer-text {
-            margin-top: 30px; /* Increased margin */
-            font-size: 18px; /* Increased font-size */
+            margin-top: 20px;
+            font-size: 16px;
             color: #888;
         }
         .contact-icons {
-            margin-top: 20px; /* Increased margin */
+            margin-top: 10px;
         }
         .contact-icons a {
             display: inline-block;
-            margin: 0 15px; /* Increased margin */
+            margin: 0 10px;
         }
         .contact-icons img {
-            width: 40px; /* Increased width */
-            height: 40px; /* Increased height */
+            width: 30px;
+            height: 30px;
         }
         .contact-message {
-            font-size: 20px; /* Increased font-size */
+            font-size: 18px;
             color: black;
-            margin-bottom: 20px; /* Increased margin */
+            margin-bottom: 10px;
         }
         body.dark-mode .contact-message {
             color: #f0f0f0;
@@ -113,24 +114,23 @@
             background-color: #8c4aad;
         }
         .video-container {
-            padding: 20px; /* Increased padding */
+            padding: 10px 0;
             position: relative;
-            margin-bottom: 20px; /* Increased margin */
+            margin-bottom: 15px;
             text-align: center;
         }
         .video-title {
-            font-size: 20px; /* Increased font-size */
-            margin-bottom: 20px; /* Increased margin */
+            font-size: 17px;
+            margin-bottom: 10px;
         }
         .video-container iframe {
             border-radius: 8px;
             width: 100%;
             max-width: 100%;
-            height: 400px; /* Set a fixed height for the videos */
         }
         .video-footer-text {
-            margin-top: 30px; /* Increased margin */
-            font-size: 18px; /* Increased font-size */
+            margin-top: 20px;
+            font-size: 16px;
             color: #888;
         }
         body.dark-mode .video-footer-text {
@@ -165,18 +165,18 @@
         .menu-content {
             background-color: #2c2c2c;
             color: white;
-            padding: 20px; /* Increased padding */
+            padding: 10px;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .menu-button {
             background-color: #4CAF50;
             color: white;
             border: none;
-            padding: 15px 25px; /* Increased padding */
+            padding: 10px 20px;
             cursor: pointer;
             border-radius: 4px;
-            margin-bottom: 30px; /* Increased margin */
+            margin-bottom: 20px;
         }
         .menu-button:hover {
             background-color: #45a049;
@@ -187,7 +187,7 @@
             margin: 0;
         }
         .menu-content ul li {
-            padding: 15px 20px; /* Increased padding */
+            padding: 10px 15px;
             cursor: pointer;
             transition: background-color 0.3s;
         }
@@ -198,24 +198,24 @@
         .user-info {
             display: flex;
             align-items: center;
-            margin-bottom: 30px; /* Increased margin */
-            padding: 15px; /* Increased padding */
+            margin-bottom: 20px;
+            padding: 10px;
             background-color: #f9f9f9;
             border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         body.dark-mode .user-info {
             background-color: #444;
         }
         .user-info img {
             border-radius: 50%;
-            width: 70px; /* Increased width */
-            height: 70px; /* Increased height */
-            margin-right: 20px; /* Increased margin */
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
         }
         .user-info p {
             margin: 0;
-            font-size: 18px; /* Increased font-size */
+            font-size: 16px;
             font-weight: bold;
         }
     </style>

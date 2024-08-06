@@ -392,7 +392,7 @@
 
 <!-- New document iframe -->
 <div class="document-container">
-    <iframe src="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/preview" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/preview" width="800" height="600" allow="autoplay" scrolling="no"></iframe>
 </div>
 
         </div>

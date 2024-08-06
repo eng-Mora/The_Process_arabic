@@ -187,7 +187,7 @@ body {
         </div>
         <div id="video6" class="video-container hidden">
             <h1 class="video-title">حصة التأهيل</h1>
-<iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" width="600" height="800" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/preview" width="800" height="600" allow="autoplay" scrolling="no"></iframe>
 
 <!-- New document iframe -->
 <div class="document-container">

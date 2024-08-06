@@ -388,10 +388,12 @@
         </div>
         <div id="video6" class="video-container hidden">
             <h1 class="video-title">حصة التأهيل</h1>
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
-    <iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+<iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" width="600" height="800" allow="autoplay"></iframe>
+
+<!-- New document iframe -->
+<div class="document-container">
+    <iframe src="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/preview" allow="autoplay"></iframe>
 </div>
-<p><a href="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/view?usp=sharing">الاجابات</a></p>
 
         </div>
         <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>

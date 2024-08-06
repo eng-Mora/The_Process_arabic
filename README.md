@@ -14,7 +14,9 @@
             background-color: #f0f0f0;
             margin: 0;
             transition: background-color 0.5s, color 0.5s;
+            overflow: hidden; /* Prevent scrolling on the body */
         }
+
         .container {
             background-color: white;
             padding: 30px;
@@ -24,9 +26,10 @@
             width: 100%;
             max-width: 1000px;
             transition: background-color 0.5s, color 0.5s;
-            overflow-y: auto;
-            height: 100vh;
+            overflow-y: auto; /* Enable vertical scrolling */
+            max-height: 90vh; /* Limit the height to fit in the viewport */
         }
+
         .container img {
             width: 160px;
             height: auto;
@@ -35,16 +38,20 @@
             padding: 10px;
             border-radius: 8px;
         }
+
         .container h2, .container h1 {
             margin-bottom: 20px;
         }
+
         .container input {
             width: 100%;
             padding: 12px;
             margin: 12px 0;
             border: 1px solid #ccc;
             border-radius: 4px;
+            box-sizing: border-box;
         }
+
         .container button {
             width: 100%;
             padding: 12px;
@@ -53,89 +60,144 @@
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: background-color 0.3s, transform 0.3s;
         }
+
+        .container button:before,
+        .container button:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .container button:before {
+            left: -120%;
+            transform: skewX(-30deg);
+        }
+
+        .container button:after {
+            left: 100%;
+            transform: skewX(30deg);
+        }
+
+        .container button:hover:before {
+            left: 100%;
+        }
+
+        .container button:hover:after {
+            left: -100%;
+        }
+
         .container button:hover {
-            background-color: #8c4aad;
+            transform: scale(1.1);
         }
+
         .hidden {
             display: none;
         }
+
         .icon {
             width: 50px;
             height: 50px;
             cursor: pointer;
             margin-top: 20px;
         }
+
         .footer-text {
             margin-top: 20px;
             font-size: 16px;
             color: #888;
         }
+
         .contact-icons {
             margin-top: 10px;
         }
+
         .contact-icons a {
             display: inline-block;
             margin: 0 10px;
         }
+
         .contact-icons img {
             width: 30px;
             height: 30px;
         }
+
         .contact-message {
             font-size: 18px;
             color: black;
             margin-bottom: 10px;
         }
+
         body.dark-mode .contact-message {
             color: #f0f0f0;
         }
+
         body.dark-mode {
             background-color: #2c2c2c;
             color: #f0f0f0;
         }
+
         body.dark-mode .container {
             background-color: #3c3c3c;
             color: #f0f0f0;
         }
+
         body.dark-mode .container img {
             background-color: #3c3c3c;
         }
+
         body.dark-mode input {
             background-color: #5c5c5c;
             color: #f0f0f0;
             border: 1px solid #7c7c7c;
         }
+
         body.dark-mode .container button {
-            background-color: #9f54d9;
-            color: white;
-        }
-        body.dark-mode .container button:hover {
             background-color: #8c4aad;
         }
+
+        body.dark-mode .container button:hover {
+            background-color: #9f54d9;
+        }
+
         .video-container {
             padding: 10px 0;
             position: relative;
             margin-bottom: 15px;
             text-align: center;
+            max-height: 70vh; /* Limit the height to fit in the viewport */
+            overflow: auto; /* Enable scrolling if content overflows */
         }
+
         .video-title {
             font-size: 17px;
             margin-bottom: 10px;
         }
+
         .video-container iframe {
             border-radius: 8px;
             width: 100%;
-            max-width: 100%;
+            height: auto;
+            max-height: 100%;
         }
+
         .video-footer-text {
             margin-top: 20px;
             font-size: 16px;
             color: #888;
         }
+
         body.dark-mode .video-footer-text {
             color: #f0f0f0;
         }
+
         .theme-switch-wrapper {
             position: absolute;
             top: 20px;
@@ -143,25 +205,31 @@
             display: flex;
             align-items: center;
         }
+
         .theme-switch {
             display: none;
         }
+
         .theme-switch-label {
             display: flex;
             align-items: center;
             cursor: pointer;
         }
+
         .theme-switch-label .sun-icon,
         .theme-switch-label .moon-icon {
             font-size: 24px;
             transition: opacity 0.5s;
         }
+
         .theme-switch:checked + .theme-switch-label .sun-icon {
             opacity: 0;
         }
+
         .theme-switch:not(:checked) + .theme-switch-label .moon-icon {
             opacity: 0;
         }
+
         .menu-content {
             background-color: #2c2c2c;
             color: white;
@@ -169,6 +237,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         .menu-button {
             background-color: #4CAF50;
             color: white;
@@ -178,23 +247,28 @@
             border-radius: 4px;
             margin-bottom: 20px;
         }
+
         .menu-button:hover {
             background-color: #45a049;
         }
+
         .menu-content ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
         }
+
         .menu-content ul li {
             padding: 10px 15px;
             cursor: pointer;
             transition: background-color 0.3s;
         }
+
         .menu-content ul li:hover {
             background-color: #444;
             border-radius: 4px;
         }
+
         .user-info {
             display: flex;
             align-items: center;
@@ -204,15 +278,18 @@
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
         body.dark-mode .user-info {
             background-color: #444;
         }
+
         .user-info img {
             border-radius: 50%;
             width: 50px;
             height: 50px;
             margin-right: 15px;
         }
+
         .user-info p {
             margin: 0;
             font-size: 16px;
@@ -386,3 +463,4 @@
 
         document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
     </script>
+\

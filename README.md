@@ -4,295 +4,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Video Page</title>
     <style>
-    /* General styles */
-    body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f0f0f0;
-        margin: 0;
-        transition: background-color 0.5s, color 0.5s;
-    }
-
-    .container {
-        background-color: white;
-        padding: 30px;
-        border-radius: 8px;
-        box-shadow: 0 0 15px rgba(0,0,0,0.2);
-        text-align: center;
-        width: 100%;
-        max-width: 1000px;
-        transition: background-color 0.5s, color 0.5s;
-        overflow-y: auto;
-    }
-
-    .container img {
-        width: 160px;
-        height: auto;
-        margin-bottom: 10px;
-        background-color: #fff;
-        padding: 10px;
-        border-radius: 8px;
-    }
-
-    .container h2, .container h1 {
-        margin-bottom: 20px;
-    }
-
-    .container input {
-        width: 100%;
-        padding: 12px;
-        margin: 12px 0;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    .container button {
-        width: 100%;
-        padding: 12px;
-        background-color: #9f54d9;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .container button:before,
-    .container button:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 100%;
-        background: rgba(255, 255, 255, 0.3);
-        transition: all 0.3s ease;
-    }
-
-    .container button:before {
-        left: -120%;
-        transform: skewX(-30deg);
-    }
-
-    .container button:after {
-        left: 100%;
-        transform: skewX(30deg);
-    }
-
-    .container button:hover:before {
-        left: 100%;
-    }
-
-    .container button:hover:after {
-        left: -100%;
-    }
-
-    .container button:hover {
-        transform: scale(1.1);
-    }
-
-    .hidden {
-        display: none;
-    }
-
-    .icon {
-        width: 50px;
-        height: 50px;
-        cursor: pointer;
-        margin-top: 20px;
-    }
-
-    .footer-text {
-        margin-top: 20px;
-        font-size: 16px;
-        color: #888;
-    }
-
-    .contact-icons {
-        margin-top: 10px;
-    }
-
-    .contact-icons a {
-        display: inline-block;
-        margin: 0 10px;
-    }
-
-    .contact-icons img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .contact-message {
-        font-size: 18px;
-        color: black;
-        margin-bottom: 10px;
-    }
-
-    body.dark-mode .contact-message {
-        color: #f0f0f0;
-    }
-
-    body.dark-mode {
-        background-color: #2c2c2c;
-        color: #f0f0f0;
-    }
-
-    body.dark-mode .container {
-        background-color: #3c3c3c;
-        color: #f0f0f0;
-    }
-
-    body.dark-mode .container img {
-        background-color: #3c3c3c;
-    }
-
-    body.dark-mode input {
-        background-color: #5c5c5c;
-        color: #f0f0f0;
-        border: 1px solid #7c7c7c;
-    }
-
-    body.dark-mode .container button {
-        background-color: #8c4aad;
-    }
-
-    body.dark-mode .container button:hover {
-        background-color: #9f54d9;
-    }
-
-    .video-container {
-        padding: 10px 0;
-        position: relative;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .video-title {
-        font-size: 17px;
-        margin-bottom: 10px;
-    }
-
-    .video-container iframe {
-        border-radius: 8px;
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-    }
-
-    .video-footer-text {
-        margin-top: 20px;
-        font-size: 16px;
-        color: #888;
-    }
-
-    body.dark-mode .video-footer-text {
-        color: #f0f0f0;
-    }
-
-    .theme-switch-wrapper {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        display: flex;
-        align-items: center;
-    }
-
-    .theme-switch {
-        display: none;
-    }
-
-    .theme-switch-label {
-        display: flex;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    .theme-switch-label .sun-icon,
-    .theme-switch-label .moon-icon {
-        font-size: 24px;
-        transition: opacity 0.5s;
-    }
-
-    .theme-switch:checked + .theme-switch-label .sun-icon {
-        opacity: 0;
-    }
-
-    .theme-switch:not(:checked) + .theme-switch-label .moon-icon {
-        opacity: 0;
-    }
-
-    .menu-content {
-        background-color: #2c2c2c;
-        color: white;
-        padding: 10px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .menu-button {
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-        border-radius: 4px;
-        margin-bottom: 20px;
-    }
-
-    .menu-button:hover {
-        background-color: #45a049;
-    }
-
-    .menu-content ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu-content ul li {
-        padding: 10px 15px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-    }
-
-    .menu-content ul li:hover {
-        background-color: #444;
-        border-radius: 4px;
-    }
-
-    .user-info {
-        display: flex;
-        align-items: center;
-        margin-bottom: 20px;
-        padding: 10px;
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    body.dark-mode .user-info {
-        background-color: #444;
-    }
-
-    .user-info img {
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        margin-right: 15px;
-    }
-
-    .user-info p {
-        margin: 0;
-        font-size: 16px;
-        font-weight: bold;
-    }
-</style>
-
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            text-align: center;
+            width: 100%;
+            max-width: 1000px;
+            transition: background-color 0.5s, color 0.5s;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        .container img {
+            width: 160px;
+            height: auto;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .container h2, .container h1 {
+            margin-bottom: 20px;
+        }
+        .container input {
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #9f54d9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .container button:hover {
+            background-color: #8c4aad;
+        }
+        .hidden {
+            display: none;
+        }
+        .icon {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .footer-text {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #888;
+        }
+        .contact-icons {
+            margin-top: 10px;
+        }
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .contact-icons img {
+            width: 30px;
+            height: 30px;
+        }
+        .contact-message {
+            font-size: 18px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        body.dark-mode .contact-message {
+            color: #f0f0f0;
+        }
+        body.dark-mode {
+            background-color: #2c2c2c;
+            color: #f0f0f0;
+        }
+        body.dark-mode .container {
+            background-color: #3c3c3c;
+            color: #f0f0f0;
+        }
+        body.dark-mode .container img {
+            background-color: #3c3c3c;
+        }
+        body.dark-mode input {
+            background-color: #5c5c5c;
+            color: #f0f0f0;
+            border: 1px solid #7c7c7c;
+        }
+        body.dark-mode .container button {
+            background-color: #9f54d9;
+            color: white;
+        }
+        body.dark-mode .container button:hover {
+            background-color: #8c4aad;
+        }
+        .video-container {
+            padding: 10px 0;
+            position: relative;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .video-title {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
+        .video-container iframe {
+            border-radius: 8px;
+            width: 100%;
+            max-width: 100%;
+        }
+        .video-footer-text {
+            margin-top: 20px;
+            font-size: 16px;
+            color: #888;
+        }
+        body.dark-mode .video-footer-text {
+            color: #f0f0f0;
+        }
+        .theme-switch-wrapper {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .theme-switch {
+            display: none;
+        }
+        .theme-switch-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .theme-switch-label .sun-icon,
+        .theme-switch-label .moon-icon {
+            font-size: 24px;
+            transition: opacity 0.5s;
+        }
+        .theme-switch:checked + .theme-switch-label .sun-icon {
+            opacity: 0;
+        }
+        .theme-switch:not(:checked) + .theme-switch-label .moon-icon {
+            opacity: 0;
+        }
+        .menu-content {
+            background-color: #2c2c2c;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .menu-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .menu-button:hover {
+            background-color: #45a049;
+        }
+        .menu-content ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .menu-content ul li {
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .menu-content ul li:hover {
+            background-color: #444;
+            border-radius: 4px;
+        }
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        body.dark-mode .user-info {
+            background-color: #444;
+        }
+        .user-info img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .user-info p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div class="container" id="login-container">
@@ -393,9 +319,25 @@
     </div>
 
     <script>
-        let activeUsers = {};
+        const userDetails = {
+            '35598': { name: 'ادم عمرو', icon: 'https://api.multiavatar.com/Ebenezer%20Dimmsdale.svg' },
+            '21451': { name: 'نور عبدالرحمن', icon: 'https://api.multiavatar.com/Bugzilla.svg' },
+            '35958': { name: 'إيمان', icon: 'https://api.multiavatar.com/Avocado.svg' },
+            '43297': { name: 'محمد ايهاب عبد الفتاح ', icon: 'https://api.multiavatar.com/Jean%20Valjean.svg' },
+            '32011': { name: 'نيفين حمدي محمد', icon: 'https://api.multiavatar.com/Emma%20Watson.svg' },
+            '74626': { name: 'رحمه ماجد', icon: 'https://api.multiavatar.com/Lucas.svg' },
+            '87093': { name: 'حبيبه شعبان محمد', icon: 'https://api.multiavatar.com/Chris%20Evans.svg' },
+            '42776': { name: 'عبدالرحمن شعبان', icon: 'https://api.multiavatar.com/Tony%20Stark.svg' },
+            '57186': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/Steve%20Rogers.svg' },
+            '82910': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/Clark%20Kent.svg' },
+            '73697': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/Peter%20Parker.svg' },
+            '45043': { name: 'عبدالله احمد محمود', icon: 'https://api.multiavatar.com/Wade%20Wilson.svg' },
+            '42601': { name: 'حاتم امين محمد', icon: 'https://api.multiavatar.com/Leonardo%20DiCaprio.svg' }
+        };
 
-      function login() {
+        const activeUsers = {}; // Define activeUsers
+
+        function login() {
             const username = document.getElementById('username').value.trim();
             const videoHeading = document.getElementById('video-heading');
             const userIcon = document.getElementById('user-icon');
@@ -406,7 +348,7 @@
                 return;
             }
 
-            if (username === '45455' || username === '45454') {
+            if (userDetails[username]) {
                 if (Object.keys(activeUsers).length > 0) {
                     alert('Another user is already logged in. Please log out first.');
                     return;
@@ -416,15 +358,10 @@
                 document.getElementById('login-container').classList.add('hidden');
                 document.getElementById('video-container').classList.remove('hidden');
 
-                if (username === '45455') {
-                    videoHeading.innerHTML = 'The Process platform - Teto 🤩';
-                    userIcon.src = 'https://api.multiavatar.com/Ebenezer%20Dimmsdale.svg';  // Set Teto's icon
-                    userName.textContent = 'Teto';
-                } else if (username === '45454') {
-                    videoHeading.innerHTML = 'The Process platform - Eng: Mora 🤩';
-                    userIcon.src = 'https://api.multiavatar.com/Bugzilla.svg';  // Set Eng: Mora's icon
-                    userName.textContent = 'Eng: Mora';
-                }
+                const userDetail = userDetails[username];
+                videoHeading.innerHTML = 'The Process platform';
+                userIcon.src = userDetail.icon;  // Set user's icon
+                userName.textContent = userDetail.name;  // Set user's name
             } else {
                 alert('Invalid username');
             }
@@ -435,13 +372,6 @@
                 login();
             }
         }
-
-        window.addEventListener('beforeunload', () => {
-            const username = document.getElementById('username').value.trim();
-            if (username === '45455' || username === '45454') {
-                delete activeUsers[username];
-            }
-        });
 
         function showVideo(videoId) {
             document.querySelectorAll('.video-container').forEach(video => {

@@ -487,4 +487,3 @@
 
         document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
     </script>
-

@@ -208,8 +208,8 @@
     }
 
     .video-footer-text {
-        margin-top: 10px;
-        font-size: 16px;
+        margin-top: 5px;
+        font-size: 19px;
         color: #888;
     }
 

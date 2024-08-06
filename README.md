@@ -348,54 +348,18 @@
         <button class="menu-button" onclick="document.getElementById('video-menu').classList.toggle('hidden')">Select Video</button>
         <div id="video-menu" class="menu-content hidden">
             <ul>
-                <li onclick="showVideo('video1')">Amr Diab - El Ta'ama</li>
-                <li onclick="showVideo('video2')">Amr Diab - Tetehabi</li>
-                <li onclick="showVideo('video3')">Magd El Qasem - Qasswet Albak</li>
-                <li onclick="showVideo('video4')">Amr Diab - El Ta'ama (Maqsoum Remix)</li>
-                <li onclick="showVideo('video5')">اه يا زمن</li>
-                <li onclick="showVideo('video6')">حصة التأهيل</li>
+                <li onclick="showVideo('video1')">حصة التأهيل</li>
+                
             </ul>
         </div>
         <div id="video1" class="video-container hidden">
-            <h1 class="video-title">Amr Diab - El Ta'ama عمرو دياب - الطعامه</h1>
-            <iframe src="https://www.youtube.com/embed/zrTT4CJAvZs?si=2OVur3UJKSbsJvpM" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Amr Diab - El Ta'ama"></iframe>
-        </div>
-        <div id="video2" class="video-container hidden">
-            <h1 class="video-title">Amr Diab - Tetehabi عمرو دياب - تتحبي</h1>
-            <iframe src="https://www.youtube.com/embed/fDaHi6t9y9k?si=iYTIaiR3khSskU46" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Amr Diab - Tetehabi"></iframe>
-        </div>
-        <div id="video3" class="video-container hidden">
-            <h1 class="video-title">Magd El Qasem - Qasswet Albak| مجد القاسم - قسوة قلبك</h1>
-            <iframe src="https://www.youtube.com/embed/Spo8ijT3WKI?si=_j0KJVMSUUKYq6ft" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Magd El Qasem - Qasswet Albak"></iframe>
-        </div>
-        <div id="video4" class="video-container hidden">
-            <h1 class="video-title">Amr Diab - El Ta'ama (Maqsoum Remix عمرو دياب - الطعامه (ريميكس مقسوم</h1>
-            <iframe src="https://www.youtube.com/embed/9KRVRzErIOg?si=j76ruz-bxIPa5ehu" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="Amr Diab - El Ta'ama (Maqsoum Remix"></iframe>
-        </div>
-        <div id="video5" class="video-container hidden">
-            <h1 class="video-title">اه يا زمن</h1>
-            <script src="https://fast.wistia.com/embed/medias/iu5pz1rqv3.jsonp" async></script>
-            <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-            <div class="wistia_responsive_padding" style="padding:55.94% 0 0 0;position:relative;">
-                <div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                    <div class="wistia_embed wistia_async_iu5pz1rqv3 seo=true videoFoam=true" style="height:100%;position:relative;width:100%">
-                        <div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;">
-                            <img src="https://fast.wistia.com/embed/medias/iu5pz1rqv3/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="video6" class="video-container hidden">
-            <h1 class="video-title">حصة التأهيل</h1>
-<iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" width="600" height="800" allow="autoplay"></iframe>
-
-<!-- New document iframe -->
-<div class="document-container">
+    <h1 class="video-title">حصة التأهيل</h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+        <iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+    </div>
     <iframe src="https://drive.google.com/file/d/16YuK8K7SUWaVGd_d1ac4Fo8PS1vl3Pls/preview" width="800" height="600" allow="autoplay" scrolling="no"></iframe>
 </div>
 
-        </div>
         <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
@@ -487,3 +451,4 @@
 
         document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
     </script>
+

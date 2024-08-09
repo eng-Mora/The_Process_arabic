@@ -349,13 +349,22 @@
         <div id="video-menu" class="menu-content hidden">
             <ul>
                 <li onclick="showVideo('video1')">حصة التأهيل</li>
+                <li onclick="showVideo('video2')">حل واجب حصة 1</li>
+
                 
             </ul>
-        </div>
+             </div>
         <div id="video1" class="video-container hidden">
     <h1 class="video-title">حصة التأهيل</h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
         <iframe src="https://drive.google.com/file/d/1mwmNKYtvwn318OhJEIC6nFOHnaOCr1ne/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+    </div>
+       
+        </div>
+        <div id="video2" class="video-container hidden">
+    <h1 class="video-title">حل واجب حصة 1 </h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+        <iframe src="https://drive.google.com/file/d/1k03hdmxGtL6Vfd9O-cxuywaVrINwdJJp/preview" width="640" height="480" allow="autoplay"></iframe>
     </div>
 <iframe src="https://drive.google.com/file/d/1G3Oq-lDSpLcnaCRyLgd7x0CcamC-rjBY/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>

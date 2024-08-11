@@ -129,10 +129,11 @@
     }
 
     .footer-text {
-        margin-top: 20px;
-        font-size: 16px;
-        color: #888;
-    }
+    margin-top: -10px; /* Adjusted from 20px to 10px */
+    font-size: 16px;
+    color: #888;
+}
+
 
     .contact-icons {
         margin-top: 10px;
@@ -463,4 +464,5 @@
 
         document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
     </script>
+
 

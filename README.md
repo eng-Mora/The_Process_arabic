@@ -129,7 +129,7 @@
     }
 
     .footer-text {
-    margin-top: -10px; /* Adjusted from 20px to 10px */
+    margin-top: -20px; 
     font-size: 16px;
     color: #888;
 }

@@ -5,253 +5,254 @@
     <title>Login and Video Page</title>
     <style>
     /* General styles */
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #302967;
-    margin: 0;
-    transition: background-color 0.5s, color 0.5s;
-    overflow: hidden;
-}
+ body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #302967;
+            margin: 0;
+            transition: background-color 0.5s, color 0.5s;
+            overflow: hidden;
+        }
 
-.container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 100%;
-    max-width: 600px;
-    transition: background-color 0.5s, color 0.5s;
-    overflow-y: auto;
-    max-height: 90vh;
-}
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            transition: background-color 0.5s, color 0.5s;
+            overflow-y: auto;
+            max-height: 90vh;
+        }
 
-.container img {
-    width: 160px;
-    height: auto;
-    margin-bottom: 10px;
-    padding: 0;
-    border-radius: 8px;
-}
+        .container img {
+            width: 160px;
+            height: auto;
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+        }
 
-.container h2, .container h1 {
-    margin-bottom: 20px;
-}
+        .container h2, .container h1 {
+            margin-bottom: 20px;
+        }
 
-.container input {
-    width: 100%;
-    padding: 12px;
-    margin: 12px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
+        .container input {
+            width: 100%;
+            padding: 12px;
+            margin: 12px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
 
-.container button {
-    width: 100%;
-    padding: 12px;
-    background-color: #9f54d9;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: background-color 0.3s, transform 0.3s;
-}
+        .container button {
+            width: 100%;
+            padding: 12px;
+            background-color: #9f54d9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            transition: background-color 0.3s, transform 0.3s;
+        }
 
-.container button:hover {
-    background-color: #7e3a9e;
-    transform: scale(1.05);
-}
+        .container button:hover {
+            background-color: #7e3a9e;
+            transform: scale(1.05);
+        }
 
-.hidden {
-    display: none;
-}
+        .hidden {
+            display: none;
+        }
 
-.icon {
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-    margin-top: 20px;
-}
+        .icon {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
 
-.footer-text, .contact-message {
-    margin-top: 20px;
-    font-size: 16px;
-    color: #888;
-}
+        .footer-text, .contact-message {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #888;
+        }
 
-.contact-icons {
-    margin-top: 10px;
-}
+        .contact-icons {
+            margin-top: 10px;
+        }
 
-.contact-icons a {
-    display: inline-block;
-    margin: 0 10px;
-}
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
 
-.contact-icons img {
-    width: 30px;
-    height: 30px;
-}
+        .contact-icons img {
+            width: 30px;
+            height: 30px;
+        }
 
-body.dark-mode {
-    background-color: #2c2c2c;
-    color: #f0f0f0;
-}
+        body.dark-mode {
+            background-color: #2c2c2c;
+            color: #f0f0f0;
+        }
 
-body.dark-mode .container {
-    background-color: #3c3c3c;
-    color: #f0f0f0;
-}
+        body.dark-mode .container {
+            background-color: #3c3c3c;
+            color: #f0f0f0;
+        }
 
-body.dark-mode .container input {
-    background-color: #5c5c5c;
-    color: #f0f0f0;
-    border: 1px solid #7c7c7c;
-}
+        body.dark-mode .container input {
+            background-color: #5c5c5c;
+            color: #f0f0f0;
+            border: 1px solid #7c7c7c;
+        }
 
-body.dark-mode .container button {
-    background-color: #8c4aad;
-}
+        body.dark-mode .container button {
+            background-color: #8c4aad;
+        }
 
-body.dark-mode .container button:hover {
-    background-color: #9f54d9;
-}
+        body.dark-mode .container button:hover {
+            background-color: #9f54d9;
+        }
 
-.video-container {
-    padding: 10px 0;
-    position: relative;
-    margin-bottom: 15px;
-    text-align: center;
-    max-height: 70vh;
-    overflow: auto;
-}
+        .video-container {
+            padding: 10px 0;
+            position: relative;
+            margin-bottom: 15px;
+            text-align: center;
+            max-height: 70vh;
+            overflow: auto;
+        }
 
-.video-title {
-    font-size: 17px;
-    margin-bottom: 10px;
-}
+        .video-title {
+            font-size: 17px;
+            margin-bottom: 10px;
+        }
 
-.video-container iframe {
-    border-radius: 8px;
-    width: 100%;
-    height: auto;
-    max-height: 100%;
-}
+        .video-container iframe {
+            border-radius: 8px;
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+        }
 
-.video-footer-text {
-    margin-top: 5px;
-    font-size: 16px;
-    color: #888;
-}
+        .video-footer-text {
+            margin-top: 5px;
+            font-size: 16px;
+            color: #888;
+        }
 
-body.dark-mode .video-footer-text {
-    color: #f0f0f0;
-}
+        body.dark-mode .video-footer-text {
+            color: #f0f0f0;
+        }
 
-.theme-switch-wrapper {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    display: flex;
-    align-items: center;
-}
+        .theme-switch-wrapper {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            align-items: center;
+        }
 
-.theme-switch {
-    display: none;
-}
+        .theme-switch {
+            display: none;
+        }
 
-.theme-switch-label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
+        .theme-switch-label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
 
-.theme-switch-label .sun-icon,
-.theme-switch-label .moon-icon {
-    font-size: 24px;
-    transition: opacity 0.5s;
-}
+        .theme-switch-label .sun-icon,
+        .theme-switch-label .moon-icon {
+            font-size: 24px;
+            transition: opacity 0.5s;
+        }
 
-.theme-switch:checked + .theme-switch-label .sun-icon {
-    opacity: 0;
-}
+        .theme-switch:checked + .theme-switch-label .sun-icon {
+            opacity: 0;
+        }
 
-.theme-switch:not(:checked) + .theme-switch-label .moon-icon {
-    opacity: 0;
-}
+        .theme-switch:not(:checked) + .theme-switch-label .moon-icon {
+            opacity: 0;
+        }
 
-.menu-content {
-    background-color: #2c2c2c;
-    color: white;
-    padding: 10px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        .menu-content {
+            background-color: #2c2c2c;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-.menu-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 4px;
-    margin-bottom: 20px;
-}
+        .menu-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
 
-.menu-button:hover {
-    background-color: #45a049;
-}
+        .menu-button:hover {
+            background-color: #45a049;
+        }
 
-.menu-content ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+        .menu-content ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
 
-.menu-content ul li {
-    padding: 10px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+        .menu-content ul li {
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
 
-.menu-content ul li:hover {
-    background-color: #444;
-    border-radius: 4px;
-}
+        .menu-content ul li:hover {
+            background-color: #444;
+            border-radius: 4px;
+        }
 
-.user-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+        .user-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-body.dark-mode .user-info {
-    background-color: #444;
-}
+        body.dark-mode .user-info {
+            background-color: #444;
+        }
 
-.user-info img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-}
+        .user-info img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
 
-.user-info p {
-    margin: 0;
-    font-size: 16px;
-    font-weight: bold;
-}
+        .user-info p {
+            margin: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
 </style>
 
 </head>

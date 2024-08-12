@@ -5,7 +5,7 @@
     <title>Login and Video Page</title>
     <style>
     /* General styles */
-body {
+ body {
   
     font-family: Arial, sans-serif;
     display: flex;

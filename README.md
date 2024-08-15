@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Video Page</title>
     <style>
-    /* General styles */
- body {
+        /* General styles */
+        body {
   
     font-family: Arial, sans-serif;
     display: flex;
@@ -326,14 +326,13 @@
         font-size: 16px;
         font-weight: bold;
     }
-</style>
-
+    </style>
 </head>
 <body>
     <div class="container" id="login-container">
         <img src="https://i.ibb.co/G2dH87P/Clipped-image-20240718-232638.png" alt="Medal Image">
         <h2>The Process platform</h2>
-        <input type="text" id="username" placeholder="Enter Username" onkeydown="handleEnterKey(event)">
+        <input type="password" id="username" placeholder="Enter Username" onkeydown="handleEnterKey(event)">
         <button onclick="login()">Login</button>
         <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
@@ -451,6 +450,9 @@
                 videoHeading.innerHTML = 'The Process platform';
                 userIcon.src = userDetail.icon;  // Set user's icon
                 userName.textContent = userDetail.name;  // Set user's name
+
+                // Replace numeric username with a placeholder or masked string
+                document.getElementById('username').value = '********'; 
             } else {
                 alert('Invalid username');
             }
@@ -475,4 +477,3 @@
 
         document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
     </script>
-

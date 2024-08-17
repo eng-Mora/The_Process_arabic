@@ -404,6 +404,9 @@
 
     <script>
         const userDetails = {
+            'admin': { name: 'administrator', icon: 'https://api.multiavatar.com/f84f24bcc7b72eebf0.svg'},
+            
+            '86284': { name: 'حبيبية شعبان', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg'},
             '49696': { name: 'ادم عمرو', icon: 'https://api.multiavatar.com/f84f24bcc7b72eebf0.svg' },
             '81659': { name: 'نور عبدالرحمن', icon: 'https://api.multiavatar.com/20ba7ccc9a755d9743.svg' },
             '37144': { name: 'عبدالله احمد صلاح', icon: 'https://api.multiavatar.com/9b840c355db11594e1.svg' },

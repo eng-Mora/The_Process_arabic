@@ -378,7 +378,7 @@
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1k03hdmxGtL6Vfd9O-cxuywaVrINwdJJp/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
     </div>
     
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;"><iframe src="https://drive.google.com/file/d/1G3Oq-lDSpLcnaCRyLgd7x0CcamC-rjBY/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe></div>
+<iframe src="https://drive.google.com/file/d/1G3Oq-lDSpLcnaCRyLgd7x0CcamC-rjBY/preview" width="640" height="480" allow="autoplay"></iframe>>
 </div>
 <div id="video3" class="video-container hidden">
     <h1 class="video-title">حل واجب حصة 2</h1>
@@ -388,8 +388,7 @@
     
     
     
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;"><iframe src="https://drive.google.com/file/d/1HdGZJTZ4SDURmuIaEZyMLqLrzNuvpqPP/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe></div>
-
+<iframe src="https://drive.google.com/file/d/1HdGZJTZ4SDURmuIaEZyMLqLrzNuvpqPP/preview" width="640" height="480" allow="autoplay"></iframe>
 
 
 

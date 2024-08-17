@@ -404,7 +404,7 @@
 
     <script>
         const userDetails = {
-            'admin': { name: 'administrator', icon: 'https://api.multiavatar.com/f84f24bcc7b72eebf0.svg'},
+            'admin': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png'},
             
             '86284': { name: 'حبيبية شعبان', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg'},
             '49696': { name: 'ادم عمرو', icon: 'https://api.multiavatar.com/f84f24bcc7b72eebf0.svg' },

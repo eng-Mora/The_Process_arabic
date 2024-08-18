@@ -362,6 +362,7 @@
                 <li onclick="showVideo('video1')">حصة التأهيل</li>
                 <li onclick="showVideo('video2')">حل واجب حصة 1</li>
                 <li onclick="showVideo('video3')">حل واجب حصة 2</li>
+                <li onclick="showVideo('video4')">باقي حل اسئلة حصة 2</li>
 
                 
             </ul>
@@ -386,10 +387,12 @@
     
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Y0s1hTTgV-8drqiN_05yVOM6NiKvb2x2/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
     
-    
-    
 <iframe src="https://drive.google.com/file/d/1HdGZJTZ4SDURmuIaEZyMLqLrzNuvpqPP/preview" width="640" height="480" allow="autoplay"></iframe>
+  </div>
 
+<div id="video4" class="video-container hidden">
+    <h1 class="video-title">باقي حل اسئلة حصة 2</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Awo0t3OaoAwpESJCJG56MED6dZEXrsZ7/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 
 
   </div>

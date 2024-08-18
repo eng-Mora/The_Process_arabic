@@ -423,7 +423,6 @@
             '86284': { name: 'حبيبية شعبان', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg'},
             '49696': { name: 'ادم عمرو', icon: 'https://api.multiavatar.com/f84f24bcc7b72eebf0.svg' },
             '81659': { name: 'نور عبدالرحمن', icon: 'https://api.multiavatar.com/20ba7ccc9a755d9743.svg' },
-            '37144': { name: 'عبدالله احمد صلاح', icon: 'https://api.multiavatar.com/9b840c355db11594e1.svg' },
             '10781': { name: 'ياسمين السيد', icon: 'https://api.multiavatar.com/2422f12d6e1bb1d40b.svg' },
             '44889': { name: 'محمد سليم', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
             '39639': { name: 'ايمان محمد ', icon: 'https://api.multiavatar.com/e736fdd76d2f8bb555.svg' },
@@ -435,9 +434,7 @@
             '58471': { name: 'عبدالرحمن شعبان', icon: 'https://api.multiavatar.com/ba66683f68073901ea.svg' },
             '18054': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
             '20321': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
-            '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' },
-            '47916': { name: 'عبدالله احمد محمود', icon: 'https://api.multiavatar.com/c8313188a97258e27c.svg' },
-            '35365': { name: 'حاتم امين محمد', icon: 'https://api.multiavatar.com/5e4aafd12b56eaf1ed.svg' }
+            '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' }
         };
 
         const activeUsers = {}; // Define activeUsers

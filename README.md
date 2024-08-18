@@ -361,8 +361,8 @@
             <ul>
                 <li onclick="showVideo('video1')">حصة التأهيل</li>
                 <li onclick="showVideo('video2')">حل واجب حصة 1</li>
-                <li onclick="showVideo('video3')">حل واجب حصة 2</li>
                 <li onclick="showVideo('video4')">باقي حل اسئلة حصة 2</li>
+                <li onclick="showVideo('video3')">حل واجب حصة 2</li>
 
                 
             </ul>

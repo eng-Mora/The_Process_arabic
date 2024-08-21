@@ -423,7 +423,7 @@
 
     <script>
         const userDetails = {
-            'admin': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
+            'mora': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
             
             '48261': { name: 'زياد احمد يوسف', icon: 'https://api.multiavatar.com/12ac8e37b20a4556f1.svg'},
             '75934': { name: 'جنى عبدالعليم', icon: 'https://api.multiavatar.com/54c54768ceb0c3f83a.svg'},

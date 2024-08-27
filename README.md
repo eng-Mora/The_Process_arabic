@@ -366,9 +366,23 @@
         <li onclick="showVideo('video2')">حل واجب حصة 1</li>
         <li onclick="showVideo('video4')">باقي حل اسئلة حصة 2</li>
         <li onclick="showVideo('video3')">حل واجب حصة 2</li>
+        <li onclick="showVideo('video5')">حل واجب حصة 3</li>
+
     </ul>
 </div>
 
+        
+<div id="video5" class="video-container hidden">
+    <h1 class="video-title">حل واجب حصة 3 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/12bMN-bgiBlK9uMKfHmqa8tDE8jKgo0E_/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+    <h1 class="video-title">حل واجب حصة 3 (part2)</h1>
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1x9PSxhLsS4nuh7VyiwAU9O5F-vtHz9Pe/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+
+<iframe src="https://drive.google.com/file/d/1IQginzp4eLmf-vZStHctMx4qoR9cVwSt/preview" width="640" height="480" allow="autoplay"></iframe>
+  </div>
         <div id="video1" class="video-container hidden">
     <h1 class="video-title">حصة التأهيل</h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
@@ -394,7 +408,8 @@
 
 <div id="video4" class="video-container hidden">
     <h1 class="video-title">باقي حل اسئلة حصة 2</h1>
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Awo0t3OaoAwpESJCJG56MED6dZEXrsZ7/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Awo0t3OaoAwpESJCJG56MED6dZEXrsZ7/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
 
 
   </div>

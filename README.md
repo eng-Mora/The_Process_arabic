@@ -367,6 +367,8 @@
         <li onclick="showVideo('video3')">حل واجب حصة 2</li>
         <li onclick="showVideo('video4')">باقي حل اسئلة حصة 2</li>
         <li onclick="showVideo('video5')">حل واجب حصة 3</li>
+        <li onclick="showVideo('video6')">حل واجب حصة 4</li>
+
     </ul>
 </div>
 <div id="video1" class="video-container hidden">
@@ -407,13 +409,28 @@
         <h1 class="video-title">الاجابات</h1>
 
     <iframe src="https://drive.google.com/file/d/1IQginzp4eLmf-vZStHctMx4qoR9cVwSt/preview" width="640" height="480" allow="autoplay"></iframe>
-
-
-        
-
-       
   </div>
-        <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
+  
+  
+  <div id="video6" class="video-container hidden">
+  
+    <h1 class="video-title">حل واجب حصة 4 (part1)</h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Sypz3MCjVIdFTSaG9-0zXTPRNwREZ2cN/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+    </div>
+    <h1 class="video-title">حل واجب حصة 4 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Z-5eAdOYtZEz-g3u2k81Wf68AZFqCbLD/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+    <h1 class="video-title">حل واجب حصة 4 (part3)</h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1tNf7NtlcBJUkk7bF8U3asxfzWmwZGwUt/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+    </div>
+        <h1 class="video-title">الاجابات</h1>
+
+<iframe src="https://drive.google.com/file/d/13bAtoKJj-2I6BiLz13gAupFPk5hlYqd7/preview" width="640" height="480" allow="autoplay"></iframe>
+
+  
+  
+           </div>
+ <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">

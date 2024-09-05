@@ -368,7 +368,7 @@
         <li onclick="showVideo('video4')">باقي حل اسئلة حصة 2</li>
         <li onclick="showVideo('video5')">حل واجب حصة 3</li>
         <li onclick="showVideo('video6')">حل واجب حصة 4</li>
-        <li onclick="showVideo('video7')">شرح حصة 3 (سنتر)</li>
+        <li onclick="showVideo('video7')">شرح حصة 4 (سنتر)</li>
 
     </ul>
 </div>
@@ -429,9 +429,9 @@
 <iframe src="https://drive.google.com/file/d/13bAtoKJj-2I6BiLz13gAupFPk5hlYqd7/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 <div id="video7" class="video-container hidden">
-    <h1 class="video-title">شرح حصة 3 (part1)</h1>
+    <h1 class="video-title">شرح حصة 4 (part1)</h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1-VIltXMBLLQNwbVbwhTHO2ovmYSsT0wU/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
-    <h1 class="video-title">شرح حصة 3 (part)</h1>
+    <h1 class="video-title">شرح حصة 4 (part)</h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/15Mo7htyDhT7f9Beu9TwCiIMuxGO-dNRc/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
     </div>
     </div>

@@ -371,6 +371,10 @@
         <li onclick="showVideo('video7')">شرح حصة 4 (سنتر)</li>
         <li onclick="showVideo('video8')">مراجعة على الفصل الاول</li>
         <li onclick="showVideo('video9')">حل واجب حصة 5</li>
+        <li onclick="showVideo('video10')">تدريبات الدرس الاول </li>
+        <li onclick="showVideo('video11')">تدريبات الدرس الثاني </li>
+        <li onclick="showVideo('video12')">تدريبات الدرس الثالث </li>
+        <li onclick="showVideo('video13')">تدريبات الدرس الرابع </li>
 
 
 
@@ -457,6 +461,44 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1xzD3Ruv20pJw8zJ9ah75Ryg9EjpwPq0e/preview" width="640" height="480" allow="autoplay"></iframe>   
    </div>
+   
+   <div id="video10" class="video-container hidden">
+    <h1 class="video-title">تدريبات الدرس الاول part 1 </h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/16t3A4UF-VpZVnrw9ddR8M-unHtgY7Vb2/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">تدريبات الدرس الاول part 2 </h1>
+        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/12ZoKSUMdDLrRzH9TqJwWG6do7vWIxwA5/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+        </div>
+        </div>
+<div id="video11" class="video-container hidden">
+    <h1 class="video-title">تدريبات الدرس ثاني </h1>
+   <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/13K5pRTKJurRmXFpcD18-wbZLGNSLdZor/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+   </div>
+      </div>
+<div id="video12" class="video-container hidden">
+    <h1 class="video-title">تدريبات الدرس الثالث </h1>
+   <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1-RNGfZ0kxFiwSlTBcC6Kl6AFD_tNegoM/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+   </div>
+         </div>
+        
+   <div id="video13" class="video-container hidden">
+    <h1 class="video-title">تدريبات الدرس الرابع part 1 </h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1RDXJMFgrU5jgTyHr5s6KRrCQJ1rgA99r/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+       <h1 class="video-title">تدريبات الدرس الرابع part 2 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1myy8xQ2gSvSoBreZK1DfpmzDQGqXVF-i/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+   </div>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>

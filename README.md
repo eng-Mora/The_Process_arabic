@@ -375,6 +375,7 @@
         <li onclick="showVideo('video11')">تدريبات الدرس الثاني </li>
         <li onclick="showVideo('video12')">تدريبات الدرس الثالث </li>
         <li onclick="showVideo('video13')">تدريبات الدرس الرابع </li>
+        <li onclick="showVideo('video14')">حل واجب حصة 6 </li>
 
 
 
@@ -488,18 +489,19 @@
 </div>
    </div>
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+   <div id="video14" class="video-container hidden">
+    <h1 class="video-title">حل واجب حصة 6 (part1)</h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1oB4cYVmLvZwYT1kzkHWp4B1IgWh4Lw3Q/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+    </div>
+        <h1 class="video-title">حل واجب حصة 6 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Cg7qYRF0weN2lGt1g4646I1a5kYvOheT/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+       <h1 class="video-title">حل واجب حصة 6 (part3)</h1>
+       <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1-RTnIp68sHw7U5m1TiAXviWh_1nOfgMf/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+   <iframe src="https://drive.google.com/file/d/1hg11yXNrmuVlkg3yBKqj4MftUQffBQqS/preview" width="640" height="480" allow="autoplay"></iframe>
+   </div>
+
    
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">

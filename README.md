@@ -376,6 +376,7 @@
         <li onclick="showVideo('video12')">تدريبات الدرس الثالث </li>
         <li onclick="showVideo('video13')">تدريبات الدرس الرابع </li>
         <li onclick="showVideo('video14')">حل واجب حصة 6 </li>
+        <li onclick="showVideo('video15')">حل واجب حصة 7 </li>
 
 
 
@@ -501,8 +502,18 @@
         <h1 class="video-title">الاجابات</h1>
    <iframe src="https://drive.google.com/file/d/1hg11yXNrmuVlkg3yBKqj4MftUQffBQqS/preview" width="640" height="480" allow="autoplay"></iframe>
    </div>
+  
+  
+   <div id="video15" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 7 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1fdjCqGTXWbeY1i9Bdu9qsipZC6jn22jX/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+             <h1 class="video-title">حل واجب حصة 7 (part2)</h1>
+             <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kQZrgRazZbjfc1Avn7252Xj_ftoIlsPi/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+             </div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1AybPqTYHCz_KkaZtQrz0ggvLUiLv9zx2/preview" width="640" height="480" allow="autoplay"></iframe>   </div>
 
-   
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
@@ -528,10 +539,9 @@
 
     <script>
         const userDetails = {
-            'admin mora': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
-            '86554': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},
-
+            'admin.mora': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
             
+            '86554': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},            
             '48261': { name: 'زياد احمد يوسف', icon: 'https://api.multiavatar.com/12ac8e37b20a4556f1.svg'},
             '75934': { name: 'ضي عبدالعليم', icon: 'https://api.multiavatar.com/54c54768ceb0c3f83a.svg'},
             '21687': { name: 'روان إيهاب', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg'},

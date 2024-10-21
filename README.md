@@ -377,6 +377,7 @@
         <li onclick="showVideo('video13')">تدريبات الدرس الرابع </li>
         <li onclick="showVideo('video14')">حل واجب حصة 6 </li>
         <li onclick="showVideo('video15')">حل واجب حصة 7 </li>
+        <li onclick="showVideo('video16')">حل واجب حصة 8 </li>
 
 
 
@@ -512,7 +513,26 @@
              <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kQZrgRazZbjfc1Avn7252Xj_ftoIlsPi/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
              </div>
         <h1 class="video-title">الاجابات</h1>
-<iframe src="https://drive.google.com/file/d/1AybPqTYHCz_KkaZtQrz0ggvLUiLv9zx2/preview" width="640" height="480" allow="autoplay"></iframe>   </div>
+<iframe src="https://drive.google.com/file/d/1AybPqTYHCz_KkaZtQrz0ggvLUiLv9zx2/preview" width="640" height="480" allow="autoplay"></iframe>   
+</div>
+
+
+<div id="video16" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 8 (part1)</h1>
+          <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1_HrbQ1CJDyy5cn3TGRVCEP9oqWxkAGMT/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title"> (part2)</h1>
+          <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1YMmcl1NqIdJBvxVacbJsmLt-sYTiAPU3/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title"> (part3)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1lNSmM5bKHzRqpvCD69i7YJR8a5mBszyp/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1P0avXQpoAZxMtSIn_OmxyMAUj6RfS3Di/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
+
+
+
+
+
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
@@ -568,6 +588,8 @@
             '18054': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
             '20321': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
             '73349': { name: 'محمود هشام', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
+            '64561': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
+
             '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' }
         };
 

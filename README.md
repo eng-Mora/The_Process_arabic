@@ -590,6 +590,7 @@
             '20321': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
             '73349': { name: 'محمود هشام', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
             '64561': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
+            '55844': { name: 'eng.tarek saeed', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
 
             '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' }
         };

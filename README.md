@@ -378,6 +378,7 @@
         <li onclick="showVideo('video14')">حل واجب حصة 6 </li>
         <li onclick="showVideo('video15')">حل واجب حصة 7 </li>
         <li onclick="showVideo('video16')">حل واجب حصة 8 </li>
+        <li onclick="showVideo('video17')">حل واجب حصة 9 </li>
 
 
 
@@ -527,9 +528,14 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1P0avXQpoAZxMtSIn_OmxyMAUj6RfS3Di/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
-
-
-
+<div id="video17" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 9 (part1)</h1>
+          <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1R_DTAyxvhT32iXqgzDJFHQvhTVLum9xE/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 9 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1dQavkTyXAUAd3YSVJDm57AV_9iyn5TNh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1dViunIRkzBj6muMwDSXFFa9OaleE0Rhm/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
 
 
 

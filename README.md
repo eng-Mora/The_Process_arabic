@@ -543,6 +543,7 @@
           <h1 class="video-title">حل واجب حصة 10 (part1)</h1>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1MWaJdpHWnkPQLSyoRB82N2TDXSrxJg8J/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
 </div>
+<iframe src="https://drive.google.com/file/d/1m6UiJEUFayb4isIx-Gpx21kqV2frBUoe/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>

@@ -380,6 +380,7 @@
         <li onclick="showVideo('video16')">حل واجب حصة 8 </li>
         <li onclick="showVideo('video17')">حل واجب حصة 9 </li>
         <li onclick="showVideo('video18')">حل واجب حصة 10 </li>
+        <li onclick="showVideo('video19')">حل واجب حصة 11 </li>
 
 
 
@@ -545,7 +546,14 @@
 </div>
 <iframe src="https://drive.google.com/file/d/1m6UiJEUFayb4isIx-Gpx21kqV2frBUoe/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
-
+<div id="video19" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 11 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1akDAjOT_IVE2FC9RsHe9KxpXpl1bMzln/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 11 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1itxxX0LU8-wpk3DO98xwfyjpN0VkgBK-/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1OAwwqU4w-4sP5el529mIno_R7JyIcWvD/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
@@ -573,7 +581,7 @@
         const userDetails = {
             'admin.mora': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
             
-            '86554': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},            
+            '86554o': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},       
             '48261': { name: 'زياد احمد يوسف', icon: 'https://api.multiavatar.com/12ac8e37b20a4556f1.svg'},
             '75934': { name: 'ضي عبدالعليم', icon: 'https://api.multiavatar.com/54c54768ceb0c3f83a.svg'},
             '21687': { name: 'روان إيهاب', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg'},
@@ -581,7 +589,7 @@
             '58210o': { name: 'سلمى وائل', icon: 'https://api.multiavatar.com/95bf4a24efb7c2748c.svg'},
             '70493o': { name: 'فيروز محمد', icon: 'https://api.multiavatar.com/59e284ef4c6c59b44b.svg'},
             '13856o': { name: 'نورهان محمد', icon: 'https://api.multiavatar.com/d6698e2ee87a543c08.svg'},
-            '23849': { name: 'فرح عماد', icon: 'https://api.multiavatar.com/5d1715c8c5266ef8fa.svg'},
+            '23849o': { name: 'فرح عماد', icon: 'https://api.multiavatar.com/5d1715c8c5266ef8fa.svg'},
             '94720o': { name: 'سندس محمد', icon: 'https://api.multiavatar.com/19b4a93ea61f0b650e.svg'},
             '58391': { name: 'ملك محمد', icon: 'https://api.multiavatar.com/2422f12d6e1bb1d40b.svg'},
             '62047o': { name: 'منه الله جمال', icon: 'https://api.multiavatar.com/12de69a625c83e5ca8.svg'},
@@ -591,7 +599,7 @@
             '10781': { name: 'ياسمين السيد', icon: 'https://api.multiavatar.com/2422f12d6e1bb1d40b.svg' },
             '44889': { name: 'محمد سليم', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
             '39639': { name: 'ايمان محمد ', icon: 'https://api.multiavatar.com/e736fdd76d2f8bb555.svg' },
-            '29474': { name: 'محمد ايهاب عبد الفتاح ', icon: 'https://api.multiavatar.com/7995823da6025e8a33.svg' },
+            '29474o': { name: 'محمد ايهاب عبد الفتاح ', icon: 'https://api.multiavatar.com/7995823da6025e8a33.svg' },
             '95731': { name: 'رودينا محمد نصر', icon: 'https://api.multiavatar.com/e736fdd76d2f8bb555.svg' },
             '86074o': { name: 'نيفين حمدي محمد', icon: 'https://api.multiavatar.com/12de69a625c83e5ca8.svg' },
             '30693': { name: 'رحمه ماجد', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
@@ -599,15 +607,13 @@
             '41715': { name: 'احمد حسام', icon: 'https://api.multiavatar.com/Guadalajara.svg' },
             '58471': { name: 'عبدالرحمن شعبان', icon: 'https://api.multiavatar.com/ba66683f68073901ea.svg' },
             '18054': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
-            '20321': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
+            '20321o': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
             '73349': { name: 'محمود هشام', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
-            '64561': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
+            '64561o': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
+            '46721o': { name: 'ياسمين احمد محمود', icon: 'https://api.multiavatar.com/19b4a93ea61f0b650e.svg'},
+
+
             '55844': { name: 'eng.tarek saeed', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
-
-            '46721': { name: 'ياسمسن احمد محمود', icon: 'https://api.multiavatar.com/19b4a93ea61f0b650e.svg'},
-
-
-
             '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' }
         };
 

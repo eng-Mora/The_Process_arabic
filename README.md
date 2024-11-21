@@ -381,6 +381,7 @@
         <li onclick="showVideo('video17')">حل واجب حصة 9 </li>
         <li onclick="showVideo('video18')">حل واجب حصة 10 </li>
         <li onclick="showVideo('video19')">حل واجب حصة 11 </li>
+        <li onclick="showVideo('video20')">حل واجب حصة 12 </li>
 
 
 
@@ -554,6 +555,17 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1OAwwqU4w-4sP5el529mIno_R7JyIcWvD/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
+<div id="video20" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 12 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1r91rnCm-4EZi8mRd2JOAVVyEAv_99bC7/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 12 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1MKYgXDJOUhBP1clU20frZRjduEefZt98/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 12 (part3)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/15NnMk6KQQd-4G_JaeUt_QDfIIhNColjo/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+        <iframe src="https://drive.google.com/file/d/1dAHdV5eZ6jM1VvM8J5QveD_XpTtkTTUk/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">

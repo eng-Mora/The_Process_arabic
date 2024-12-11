@@ -591,7 +591,7 @@
 
     <script>
         const userDetails = {
-            'admin.mora': { name: 'administrator', icon: 'https://i.ibb.co/7KQqmM3/download.png '},
+            'mora': { name: 'administrator', icon: 'https://ibb.co/MMzym0Y'},
             
             '86554o': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},       
             '48261': { name: 'زياد احمد يوسف', icon: 'https://api.multiavatar.com/12ac8e37b20a4556f1.svg'},

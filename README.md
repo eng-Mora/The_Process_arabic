@@ -591,7 +591,7 @@
 
     <script>
         const userDetails = {
-            'mora': { name: 'administrator', icon: 'https://ibb.co/MMzym0Y'},
+            'mora': { name: 'administrator', icon: 'https://i.ibb.co/723xqmw/DALL-E-2024-12-11-21-10-52-A-creative-and-dynamic-logo-featuring-the-name-Mora-in-bold-modern-typogr.webp'},
             
             '86554o': { name: 'الاء محمود محمد', icon: 'https://api.multiavatar.com/155a84d30e3e3cca7e.svg '},       
             '48261': { name: 'زياد احمد يوسف', icon: 'https://api.multiavatar.com/12ac8e37b20a4556f1.svg'},

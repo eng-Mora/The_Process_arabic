@@ -383,6 +383,7 @@
         <li onclick="showVideo('video19')">حل واجب حصة 11 </li>
         <li onclick="showVideo('video20')">حل واجب حصة 12 </li>
         <li onclick="showVideo('video21')">حل واجب حصة 15 </li>
+        <li onclick="showVideo('video22')">حل واجب حصة 16 </li>
 
 
 
@@ -579,6 +580,22 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1OKzufCv1vzthRZ9c10E4Aryh2BV0UWt-/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
+
+<div id="video22" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 16 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1HzQXE6RtazQaxiMnIu-Kby9r10ytj5Bf/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 16 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1OpANgn-pKk0Z7K1gHH1m28onWrY-02Zt/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 16 (part3)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1YurR_f9Fz4OTtaJeFiEhjkIYI04HNoiA/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 16 (part4)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1H2HHLa0pMPYUbu4SJ6_jRftkvmIT8jaz/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1NlPdEITv_0YnPs4cQz3SgTIexWxEb2cj/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
+
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">

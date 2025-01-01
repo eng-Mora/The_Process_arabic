@@ -385,6 +385,7 @@
         <li onclick="showVideo('video21')">حل واجب حصة 15 </li>
         <li onclick="showVideo('video22')">حل واجب حصة 16 </li>
         <li onclick="showVideo('video23')">حل واجب حصة 17 </li>
+        <li onclick="showVideo('video24')">حل واجب حصة 18 </li>
 
 
 
@@ -603,11 +604,14 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1KOXV0vjrYS9xwVTv119SmXM5Zv1PTA_c/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
-
-
-
-
-
+<div id="video24" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 18 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1quc3ahr8vYC2iReBJStzVAAlBWZlHpxY/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 18 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1nNOTctCJykdM0eaW1KcGExeTo464O5oY/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+        <h1 class="video-title">الاجابات</h1>
+<iframe src="https://drive.google.com/file/d/1cU4ar66rqcj3UWUYf35nYvAbADCe_0Bi/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">

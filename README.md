@@ -386,6 +386,8 @@
         <li onclick="showVideo('video22')">حل واجب حصة 16 </li>
         <li onclick="showVideo('video23')">حل واجب حصة 17 </li>
         <li onclick="showVideo('video24')">حل واجب حصة 18 </li>
+        <li onclick="showVideo('video25')">حل واجب حصة 19 </li>
+
 
 
 
@@ -611,6 +613,13 @@
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1nNOTctCJykdM0eaW1KcGExeTo464O5oY/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1cU4ar66rqcj3UWUYf35nYvAbADCe_0Bi/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
+<div id="video25" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 19 (لحد سوال23)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1snikfKm0vHDTfG0-TYDtApZLYgBDYwg3/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+
 </div>
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>

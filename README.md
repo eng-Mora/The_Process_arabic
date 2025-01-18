@@ -616,9 +616,12 @@
 </div>
 
 <div id="video25" class="video-container hidden">
-          <h1 class="video-title">حل واجب حصة 19 (لحد سوال23)</h1>
+          <h1 class="video-title">حل واجب حصة 19 (part1)</h1>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1snikfKm0vHDTfG0-TYDtApZLYgBDYwg3/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
 </div>
+
+          <h1 class="video-title">حل واجب حصة 19 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1jZGW7_bOxHWL9SUs44wh7Cm8NRTHcIOw/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 
 </div>
 

@@ -388,10 +388,13 @@
         <li onclick="showVideo('video24')">حل واجب حصة 18 </li>
         <li onclick="showVideo('video25')">حل واجب حصة 19 </li>
 
-
-
-
     </ul>
+</div>
+<!-- أضف هذا القسم الخاص بفيديو حل الامتحان -->
+<div id="examVideo" class="video-container hidden">
+    <h1 class="video-title">حل الامتحان</h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kv5eqpNmC_X2ByBbfoLcXn6WUnA0eYVB/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
 </div>
 <div id="video1" class="video-container hidden">
     <h1 class="video-title">حصة التأهيل</h1>
@@ -692,57 +695,69 @@
             '52182': { name: 'عمر وليد جمال', icon: 'https://api.multiavatar.com/4db29acccc604fe610.svg' }
         };
 
-        const activeUsers = {}; // Define activeUsers
+    const activeUsers = {};
 
-        function login() {
-            const username = document.getElementById('username').value.trim();
-            const videoHeading = document.getElementById('video-heading');
-            const userIcon = document.getElementById('user-icon');
-            const userName = document.getElementById('user-name');
+    function login() {
+        const username = document.getElementById('username').value.trim();
+        const videoHeading = document.getElementById('video-heading');
+        const userIcon = document.getElementById('user-icon');
+        const userName = document.getElementById('user-name');
 
-            if (username === '') {
-                alert('Please enter a username.');
+        if (username === '') {
+            alert('Please enter a username.');
+            return;
+        }
+
+        if (userDetails[username]) {
+            if (Object.keys(activeUsers).length > 0) {
+                alert('Another user is already logged in. Please log out first.');
                 return;
             }
 
-            if (userDetails[username]) {
-                if (Object.keys(activeUsers).length > 0) {
-                    alert('Another user is already logged in. Please log out first.');
-                    return;
+            activeUsers[username] = true;
+            document.getElementById('login-container').classList.add('hidden');
+            document.getElementById('video-container').classList.remove('hidden');
+
+            const userDetail = userDetails[username];
+            videoHeading.innerHTML = 'The Process platform';
+            userIcon.src = userDetail.icon;  // Set user's icon
+            userName.textContent = userDetail.name;  // Set user's name
+
+            // إذا كان المستخدم هو "2526" أضف العنصر الجديد إلى القائمة
+            if (['mora', '99', '11'].includes(username)) {
+                const examItem = document.createElement('li');
+                examItem.textContent = 'حل الامتحان';
+                examItem.onclick = () => showVideo('examVideo');
+
+const menuList = document.querySelector('#video-menu ul');
+                menuList.insertBefore(examItem, menuList.firstChild); // Move "حل الامتحان" to the top           
                 }
 
-                activeUsers[username] = true;
-                document.getElementById('login-container').classList.add('hidden');
-                document.getElementById('video-container').classList.remove('hidden');
-
-                const userDetail = userDetails[username];
-                videoHeading.innerHTML = 'The Process platform';
-                userIcon.src = userDetail.icon;  // Set user's icon
-                userName.textContent = userDetail.name;  // Set user's name
-
-                // Replace numeric username with a placeholder or masked string
-                document.getElementById('username').value = '********'; 
-            } else {
-                alert('Invalid username');
-            }
+            // Replace numeric username with a placeholder or masked string
+            document.getElementById('username').value = '********'; 
+        } else {
+            alert('Invalid username');
         }
+    }
 
-        function handleEnterKey(event) {
-            if (event.key === 'Enter') {
-                login();
-            }
+    function handleEnterKey(event) {
+        if (event.key === 'Enter') {
+            login();
         }
+    }
 
-        function showVideo(videoId) {
-            document.querySelectorAll('.video-container').forEach(video => {
-                video.classList.add('hidden');
-            });
-            document.getElementById(videoId).classList.remove('hidden');
-        }
+    function showVideo(videoId) {
+        document.querySelectorAll('.video-container').forEach(video => {
+            video.classList.add('hidden');
+        });
+        document.getElementById(videoId).classList.remove('hidden');
+    }
 
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
+    function toggleDarkMode() {
+        document.body.classList.toggle('dark-mode');
+    }
 
-        document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
-    </script>
+    document.getElementById('theme-switch').addEventListener('change', toggleDarkMode);
+</script>
+
+

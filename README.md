@@ -387,6 +387,8 @@
         <li onclick="showVideo('video23')">حل واجب حصة 17 </li>
         <li onclick="showVideo('video24')">حل واجب حصة 18 </li>
         <li onclick="showVideo('video25')">حل واجب حصة 19 </li>
+        <li onclick="showVideo('video26')">حل واجب حصة 20 </li>
+
 
     </ul>
 </div>
@@ -625,8 +627,27 @@
 
           <h1 class="video-title">حل واجب حصة 19 (part2)</h1>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1jZGW7_bOxHWL9SUs44wh7Cm8NRTHcIOw/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
-
 </div>
+
+<div id="video26" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 20 (part1)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1cQMhfn44YfSiUytC9r2T_ZGNDXECHKwr/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">حل واجب حصة 20 (part2)</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1fQchZHx7sPY9rGydjwJeQve20hSsvvwO/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
@@ -680,10 +701,10 @@
             '99'   : { name: 'teto', icon: 'https://api.multiavatar.com/Lucas.svg' },
             '41715': { name: 'احمد حسام', icon: 'https://api.multiavatar.com/Guadalajara.svg' },
             '58471p': { name: 'عبدالرحمن شعبان', icon: 'https://api.multiavatar.com/ba66683f68073901ea.svg' },
-            '18054': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
+            '18054o': { name: 'حنين السيد سليمان', icon: 'https://api.multiavatar.com/9b8b2ae7d917ccd9ce.svg' },
             '20321o': { name: 'بسنت محمد', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
             '73349': { name: 'محمود هشام', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
-            '64561': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
+            '64561o': { name: 'ايه محمد نادي', icon: 'https://api.multiavatar.com/1eae35ecc479f6edd1.svg' },
             '46721o': { name: 'ياسمين احمد محمود', icon: 'https://api.multiavatar.com/19b4a93ea61f0b650e.svg'},
             '37144': { name: 'عبدالله احمد صلاح', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
              '47916': { name: 'عبدالله احمد محمود', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },

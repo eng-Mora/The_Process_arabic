@@ -394,6 +394,7 @@
 </div>
 <!-- أضف هذا القسم الخاص بفيديو حل الامتحان -->
 <div id="examVideo" class="video-container hidden">
+        <h1 class="video-title">حل امتحان الشامل الفصل3 $ </h1>
     <h1 class="video-title">part 1 </h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1udbFhE0twzOz_hzcYnSeVugx-8IfWK5r/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
     <h1 class="video-title">part 2 </h1>

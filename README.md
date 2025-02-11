@@ -390,15 +390,17 @@
         <li onclick="showVideo('video26')">حل واجب حصة 20 </li>
         <li onclick="showVideo('video27')">حل واجب حصة 21 </li>
 
-
-
     </ul>
 </div>
 <!-- أضف هذا القسم الخاص بفيديو حل الامتحان -->
 <div id="examVideo" class="video-container hidden">
-    <h1 class="video-title">حل الامتحان</h1>
-    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kv5eqpNmC_X2ByBbfoLcXn6WUnA0eYVB/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
-</div>
+    <h1 class="video-title">part 1 </h1>
+    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1udbFhE0twzOz_hzcYnSeVugx-8IfWK5r/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <h1 class="video-title">part 2 </h1>
+
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1tYVwF2Cu9kHZU-i7bTqyxT8iMmlYd10H/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+    <h1 class="video-title">part 3 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1VInaG2K2nMQGtRTA5cRCwq03WU-bT7WO/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 <div id="video1" class="video-container hidden">
     <h1 class="video-title">حصة التأهيل</h1>
@@ -745,10 +747,9 @@
             userIcon.src = userDetail.icon;  // Set user's icon
             userName.textContent = userDetail.name;  // Set user's name
 
-            // إذا كان المستخدم هو "2526" أضف العنصر الجديد إلى القائمة
-            if (['mora', '99', '11'].includes(username)) {
+            if (['mora', '99', '11','39639' ].includes(username)) {
                 const examItem = document.createElement('li');
-                examItem.textContent = 'حل الامتحان';
+                examItem.textContent = 'حل الامتحان $';
                 examItem.onclick = () => showVideo('examVideo');
 
 const menuList = document.querySelector('#video-menu ul');

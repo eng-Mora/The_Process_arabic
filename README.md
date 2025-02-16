@@ -712,6 +712,8 @@
              '47916': { name: 'عبدالله احمد محمود', icon: 'https://api.multiavatar.com/94a0dd6577ca3c7291.svg' },
             '92651': { name: 'نيجار محمد ابراهيم', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
             '72037': { name: 'منه احمد عبدالفتاح', icon: 'https://api.multiavatar.com/240315fc1890fd05ae.svg' },
+            '33285': { name: 'محمد احمد امير', icon: 'https://api.multiavatar.com/147b5eefb657e22dc2.svg'},
+            '58494': { name: 'اياد مجدي فرج ', icon: 'https://api.multiavatar.com/7995823da6025e8a33.svg' },
 
 
 

@@ -390,6 +390,7 @@
         <li onclick="showVideo('video26')">حل واجب حصة 20 </li>
         <li onclick="showVideo('video27')">حل واجب حصة 21 </li>
         <li onclick="showVideo('video28')">حل واجب حصة 22 </li>
+        <li onclick="showVideo('video29')">حل واجب حصة 23 </li>
 
 
     </ul>
@@ -445,10 +446,7 @@
 
     <iframe src="https://drive.google.com/file/d/1IQginzp4eLmf-vZStHctMx4qoR9cVwSt/preview" width="640" height="480" allow="autoplay"></iframe>
   </div>
-  
-  
   <div id="video6" class="video-container hidden">
-  
     <h1 class="video-title">حل واجب حصة 4 (part1)</h1>
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1Sypz3MCjVIdFTSaG9-0zXTPRNwREZ2cN/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
     </div>
@@ -459,7 +457,6 @@
     <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1tNf7NtlcBJUkk7bF8U3asxfzWmwZGwUt/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
     </div>
         <h1 class="video-title">الاجابات</h1>
-
 <iframe src="https://drive.google.com/file/d/13bAtoKJj-2I6BiLz13gAupFPk5hlYqd7/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 <div id="video7" class="video-container hidden">
@@ -477,8 +474,6 @@
           <h1 class="video-title">شرح كيرشوف</h1>
           <script src="https://fast.wistia.com/embed/medias/9ewjx7dlc4.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:60.0% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_9ewjx7dlc4 seo=true videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/9ewjx7dlc4/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 </div>
-  
-   
 <div id="video9" class="video-container hidden">
     <h1 class="video-title">حل واجب حصة 5 </h1>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/122NLtPEJMa1YCiUa-Y89Ro-W8AwwF6k_/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
@@ -659,6 +654,14 @@
         <h1 class="video-title">الاجابات</h1>
 <iframe src="https://drive.google.com/file/d/1MaMhUJMC1fAmI1Q9JaH80dSa3TD5-FSj/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
+
+<div id="video29" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 23 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1d5_8WoLu0SLMfsLcu8Cf6dtUK4y90N5-/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+</div>
+
+
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">

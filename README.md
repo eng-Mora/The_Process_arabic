@@ -393,6 +393,7 @@
         <li onclick="showVideo('video29')">حل واجب حصة 23 </li>
         <li onclick="showVideo('video30')">حل واجب حصة 24 </li>
         <li onclick="showVideo('video31')">حل واجب حصة 25 </li>
+        <li onclick="showVideo('video32')">حل واجب حصة 26 </li>
 
 
     </ul>
@@ -675,11 +676,10 @@
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kZYwE8XsaM6WmrgTAcRpHgz-qekCWBgD/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
 
-
-
-
-
-
+<div id="video32" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 26 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1ZNrnXIfDQbfcKDL0EJX4KUffx1UdtAXA/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+</div>
 
 
 

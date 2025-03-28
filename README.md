@@ -394,6 +394,8 @@
         <li onclick="showVideo('video30')">حل واجب حصة 24 </li>
         <li onclick="showVideo('video31')">حل واجب حصة 25 </li>
         <li onclick="showVideo('video32')">حل واجب حصة 26 </li>
+        <li onclick="showVideo('video33')">حل واجب حصة 27 </li>
+        <li onclick="showVideo('video34')">حل واجب حصة 28 </li>
 
 
     </ul>
@@ -680,7 +682,14 @@
           <h1 class="video-title">حل واجب حصة 26 </h1>
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1ZNrnXIfDQbfcKDL0EJX4KUffx1UdtAXA/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
 </div>
-
+<div id="video33" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 27 </h1>
+<iframe src="https://drive.google.com/file/d/1sX2dqMLnCEBEzK82z0PsgkSbvHP-i9Tt/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+<div id="video34" class="video-container hidden">
+          <h1 class="video-title">حل واجب حصة 28 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kO6P4y76nI4tRaOfQ0L7fjV1v_Cj4h6W/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+</div>
 
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>

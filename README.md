@@ -694,6 +694,7 @@
         allowfullscreen scrolling="no" allow="encrypted-media;">
     </iframe>
 </div>
+</div>
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">

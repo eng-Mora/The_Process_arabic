@@ -688,9 +688,12 @@
 </div>
 <div id="video34" class="video-container hidden">
           <h1 class="video-title">حل واجب حصة 28 </h1>
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1kO6P4y76nI4tRaOfQ0L7fjV1v_Cj4h6W/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;">
+    <iframe src="https://drive.google.com/file/d/1kO6P4y76nI4tRaOfQ0L7fjV1v_Cj4h6W/preview" 
+        style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" 
+        allowfullscreen scrolling="no" allow="encrypted-media;">
+    </iframe>
 </div>
-
 
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">

@@ -396,6 +396,7 @@
         <li onclick="showVideo('video32')">حل واجب حصة 26 </li>
         <li onclick="showVideo('video33')">حل واجب حصة 27 </li>
         <li onclick="showVideo('video34')">حل واجب حصة 28 </li>
+        <li onclick="showVideo('video35')">حل امتحان 2021 دور تاني </li>
 
 
     </ul>
@@ -693,6 +694,17 @@
         style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" 
         allowfullscreen scrolling="no" allow="encrypted-media;">
     </iframe>
+</div>
+</div>
+
+<div id="video35" class="video-container hidden">
+          <h1 class="video-title">حل امتحان 2021 دور تاني </h1>
+                    <h1 class="video-title">part.1 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1sjAO_TkzFukJ7m8aPC1nEx2oQZMQZVDW/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">part.2 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1rP_2Pl7qRKAPGxWL3euAGUskR4DdUnFh/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+          <h1 class="video-title">part.3 </h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1v8WKuw0ftiPaUjKiCMZOy3CgA3j7ZDJC/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
 </div>
 </div>
 

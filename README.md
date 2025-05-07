@@ -346,7 +346,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon">
             </a>
             <a href="http://t.me/Mora_mo1" target="_blank" title="Telegram">
-                <img src="https://i.ibb.co/9TGmH7c/cropped-image.png" alt="Telegram Icon">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png?20220101141644" alt="Telegram Icon">
             </a>
         </div>
         <p class="footer-text">Developed by Eng: Amr Mohamed</p>

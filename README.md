@@ -397,6 +397,7 @@
         <li onclick="showVideo('video33')">حل واجب حصة 27 </li>
         <li onclick="showVideo('video34')">حل واجب حصة 28 </li>
         <li onclick="showVideo('video35')">حل امتحان 2021 دور تاني </li>
+        <li onclick="showVideo('video36')">حل امتحان 2022 دور تاني </li>
 
 
     </ul>
@@ -707,7 +708,16 @@
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1v8WKuw0ftiPaUjKiCMZOy3CgA3j7ZDJC/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
 </div>
 </div>
-
+<div id="video36" class="video-container hidden">
+          <h1 class="video-title">حل امتحان 2022 دور تاني </h1>
+                    <h1 class="video-title">part.1 </h1>
+                    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1mSL_ktUm9oiUQExIIWOQewMyL2sd84T9/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+                    <h1 class="video-title">part.2</h1>
+                    <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/1JsOog4irBkRmmEJYI9ZJVBMhFFwe6948/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe></div>
+                    <h1 class="video-title">part.3</h1>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://drive.google.com/file/d/10Y15A-rhWybt8M6zJBJ88nXSbGKaHime/preview" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="encrypted-media;"></iframe>
+</div>
+</div>
  <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
         <div class="contact-icons">
             <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
